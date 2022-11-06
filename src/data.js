@@ -1,6 +1,6 @@
 export const data = [
   {
-    logo: "",
+    logo: "../images/starter.png",
     type: "Starter",
     cost: "Free",
     period: "per month",
@@ -16,7 +16,7 @@ export const data = [
     buttonText: "Get Started",
   },
   {
-    logo: "",
+    logo: "../images/pro.png",
     type: "Pro",
     cost: "$49",
     period: "per month",
@@ -32,7 +32,7 @@ export const data = [
     buttonText: "Become a Pro",
   },
   {
-    logo: "",
+    logo: "../images/team.png",
     type: "Teams",
     cost: "$99",
     period: "per month",
