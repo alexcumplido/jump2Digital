@@ -1,17 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Card } from "./components/card/Card.jsx";
-import { data } from "./data.js";
+import { CardSection } from "./components/cardSection/CardSection.jsx";
 
 function App() {
-  return (
-    <>
-      <h1>Rendering</h1>
-      {data.map(function (element, idx) {
-        return <Card key={idx} data={element} />;
-      })}
-    </>
-  );
+  return <CardSection />;
 }
 
 const container = document.getElementById("root");
