@@ -1,4 +1,5 @@
 import { List } from "../list/List.jsx";
+import { Button } from "../button/Button.jsx";
 
 export function Card({ data }) {
   const { logo, type, cost, period, benefits, buttonText } = data;
@@ -13,7 +14,7 @@ export function Card({ data }) {
         <p>{period}</p>
       </div>
       <List data={benefits} />
-      <button>{buttonText}</button>
+      <Button data={buttonText} />
     </article>
   );
 }
