@@ -1,3 +1,5 @@
+import { List } from "../list/List.jsx";
+
 export function Card({ data }) {
   const { logo, type, cost, period, benefits, buttonText } = data;
   return (
@@ -10,11 +12,7 @@ export function Card({ data }) {
         <p>{cost}</p>
         <p>{period}</p>
       </div>
-      <ul className="card__list">
-        {benefits.map(function (element, idx) {
-          return <li key={idx}>{element.text}</li>;
-        })}
-      </ul>
+      <List data={benefits} />
       <button>{buttonText}</button>
     </article>
   );
