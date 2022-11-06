@@ -1,3 +1,3 @@
-export function Button({ data }) {
-  return <button>{data}</button>;
+export function Button({ data, handleClick }) {
+  return <button onClick={handleClick}>{data}</button>;
 }
