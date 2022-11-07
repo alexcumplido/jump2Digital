@@ -3,6 +3,7 @@ import { Button } from "../button/Button.jsx";
 
 export function Card({ data, toggleModal }) {
   const { logo, type, cost, period, featured, benefits, buttonText } = data;
+  console.log(logo);
   return (
     <article
       className={`card ${featured ? `card--featured` : `card--standard`}`}
