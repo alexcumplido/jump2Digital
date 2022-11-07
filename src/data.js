@@ -1,6 +1,6 @@
 export const data = [
   {
-    logo: "../../assets/starter.png",
+    logo: "https://raw.githubusercontent.com/alexcumplido/jump2Digital/main/src/assets/starter.png",
     type: "Starter",
     cost: "Free",
     period: "per month",
@@ -17,7 +17,7 @@ export const data = [
     buttonText: "Get Started",
   },
   {
-    logo: "../../assets/pro.png",
+    logo: "https://raw.githubusercontent.com/alexcumplido/jump2Digital/main/src/assets/pro.png",
     type: "Pro",
     cost: "$49",
     period: "per month",
@@ -34,7 +34,7 @@ export const data = [
     buttonText: "Become a Pro",
   },
   {
-    logo: "../../assets/team.png",
+    logo: "https://raw.githubusercontent.com/alexcumplido/jump2Digital/main/src/assets/team.png",
     type: "Teams",
     cost: "$99",
     period: "per month",
