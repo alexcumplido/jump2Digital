@@ -4,13 +4,11 @@ import { Button } from "../button/Button.jsx";
 export function Card({ data, toggleModal }) {
   const { logo, type, cost, period, featured, benefits, buttonText } = data;
   return (
-    <article className={`card ${featured ? `card--featured` : ""}`}>
-      <div className="flex-center">
-        <img
-          className="card__image"
-          src="../../images/pro.png"
-          alt="Card logo"
-        />
+    <article
+      className={`card ${featured ? `card--featured` : `card--standard`}`}
+    >
+      <div className="card__logo">
+        <img src={logo} alt="Card logo" />
       </div>
       <div className="card__intro">
         <p>{type}</p>
@@ -20,7 +18,7 @@ export function Card({ data, toggleModal }) {
       <List data={benefits} />
       <Button
         className={`card__button flex-center
-        ${featured ? `card__button--featured` : ""}`}
+        ${featured && `card__button--featured`}`}
         handleClick={toggleModal}
         data={buttonText}
       />
