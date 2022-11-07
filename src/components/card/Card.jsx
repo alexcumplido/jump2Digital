@@ -8,7 +8,7 @@ export function Card({ data, toggleModal }) {
       className={`card ${featured ? `card--featured` : `card--standard`}`}
     >
       <div className="card__logo">
-        <img src={logo} alt="Card logo" />
+        <img className="card__image" src={logo} alt="Card logo" />
       </div>
       <div className="card__intro">
         <p>{type}</p>
