@@ -1,9 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { CardSection } from "./components/cardSection/CardSection.jsx";
+import { Cardsection } from "./components/cardsection/Cardsection.jsx";
 
 function App() {
-  return <CardSection />;
+  return <Cardsection />;
 }
 
 const container = document.getElementById("root");
