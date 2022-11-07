@@ -4,7 +4,7 @@ import { Card } from "../card/Card.jsx";
 import { Button } from "../button/Button.jsx";
 import { Modal } from "../modal/Modal.jsx";
 
-export function CardSection() {
+export function Cardsection() {
   const [modal, setModal] = useState(false);
   const [input, setInput] = useState({ value: "" });
   const handleChange = (event) => setInput({ value: event.target.value });
