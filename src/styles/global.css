@@ -1,9 +1,11 @@
 :root {
-  --color-primary-100: #dae9ef;
+  --color-primary-100: #ffffff;
   --color-primary-200: #5a45f2;
   --color-primary-300: #000000;
 
-  --color-neutral-100: #e5e5e5;
+  --color-neutral-100: #dae9ef;
+  --color-neutral-200: #5f6974;
+  --color-neutral-300: #e5e5e5;
 
   --max-width-desktop: 1110px;
 
@@ -11,32 +13,25 @@
   --ff-body: var(--ff-primary);
   --fs-body: var(--fs-200);
 
-  --fs-100: 0.75rem;
+  --fs-100: 0.8rem;
   --fs-200: 0.875rem;
   --fs-300: 1.5rem;
 
   --fw-regular: 300;
   --fw-bold: 500;
   --fw-extra-bold: 700;
-
-  --lh: calc(var(--fs-100) * 1.5);
 }
-
-/* @media screen and (min-width: 750px) {
-  :root {
-    --fs-100: 1rem;
-    --fs-200: 1.25rem;
-    --fs-300: 1.5rem;
-  }
-} */
 
 body {
   min-height: 100vh;
   margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-items: stretch;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   color: var(--color-primary-300);
-  background-color: var(--color-neutral-100);
+  background-color: var(--color-neutral-300);
 }
 
 ul {

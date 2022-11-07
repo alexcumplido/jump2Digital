@@ -1,0 +1,43 @@
+.card__button {
+  padding: 0.75rem;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-bold);
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary-200);
+  background-color: var(--color-primary-100);
+  cursor: pointer;
+  transition: all 0.12s ease-in;
+}
+
+.card__button:hover {
+  color: var(--color-primary-100);
+  background-color: var(--color-primary-200);
+}
+
+.card__button--featured {
+  color: var(--color-primary-100);
+  background-color: var(--color-primary-300);
+}
+
+.card__button--featured:hover {
+  color: var(--color-primary-300);
+  background-color: var(--color-primary-100);
+}
+
+.modal__button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 50vmin;
+  border: none;
+  border: 1px solid var(--color-primary-200);
+  color: var(--color-primary-100);
+  background-color: var(--color-primary-200);
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  color: var(--color-primary-200);
+  background-color: var(--color-primary-100);
+}
