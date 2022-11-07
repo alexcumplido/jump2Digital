@@ -2,11 +2,11 @@ import { List } from "../list/List.jsx";
 import { Button } from "../button/Button.jsx";
 
 export function Card({ data, toggleModal }) {
-  const { logo, type, cost, period, benefits, buttonText } = data;
+  const { logo, type, cost, period, featured, benefits, buttonText } = data;
   return (
-    <article>
-      <div className="card__logo">
-        <img src={logo} alt="Card logo" />
+    <article className={`card ${featured ? `card--featured` : ""}`}>
+      <div className="flex-center">
+        <img className="card__image" src={logo} alt="Card logo" />
       </div>
       <div className="card__intro">
         <p>{type}</p>
@@ -14,7 +14,12 @@ export function Card({ data, toggleModal }) {
         <p>{period}</p>
       </div>
       <List data={benefits} />
-      <Button handleClick={toggleModal} data={buttonText} />
+      <Button
+        className={`card__button flex-center
+        ${featured ? `card__button--featured` : ""}`}
+        handleClick={toggleModal}
+        data={buttonText}
+      />
     </article>
   );
 }
