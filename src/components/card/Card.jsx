@@ -6,7 +6,11 @@ export function Card({ data, toggleModal }) {
   return (
     <article className={`card ${featured ? `card--featured` : ""}`}>
       <div className="flex-center">
-        <img className="card__image" src={logo} alt="Card logo" />
+        <img
+          className="card__image"
+          src="../../images/pro.png"
+          alt="Card logo"
+        />
       </div>
       <div className="card__intro">
         <p>{type}</p>
