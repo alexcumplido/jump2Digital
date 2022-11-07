@@ -1,0 +1,39 @@
+.card {
+  flex-basis: 22rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  font-weight: var(--fw-regular);
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-neutral-100);
+  color: var(--color-primary-300);
+  background-color: var(--color-primary-100);
+}
+
+.card:nth-of-type(3) {
+  padding: 2rem;
+}
+
+.card--featured {
+  padding: 2.5rem;
+  color: var(--color-primary-100);
+  border-color: var(--color-primary-300);
+  background-color: var(--color-primary-200);
+}
+
+.card__image {
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+
+.card:hover .card__image,
+.card:focus-within .card__image {
+  transform: scale(1.1);
+  filter: brightness(1.065);
+}
+.card__intro p:nth-of-type(2) {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-extra-bold);
+}
