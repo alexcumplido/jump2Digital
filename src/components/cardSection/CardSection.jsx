@@ -11,29 +11,35 @@ export function CardSection() {
   const toggleModal = () => setModal(!modal);
 
   return (
-    <section className="card__section">
+    <section className="container-standard card-section">
       {data.map(function (element, idx) {
         return <Card key={idx} data={element} toggleModal={toggleModal} />;
       })}
       {modal ? (
         <Modal>
-          <p>
-            Thanks for your interest. Enter an email and we will reach you soon.
-          </p>
-          <form>
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="example@gmail.com"
-              onChange={handleChange}
-              value={input.value}
-              required
-            />
-            <input type="submit" value="Send" />
+          <form className="modal__form">
+            <p>
+              Thanks for your interest! Enter an email and we will reach you.
+            </p>
+            <label htmlFor="email">
+              Email
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+                onChange={handleChange}
+                value={input.value}
+                required
+              />
+            </label>
+            <input className="modal__submit" type="submit" value="Send" />
           </form>
-          <Button handleClick={toggleModal} data={"Close"} />
+          <Button
+            className={"modal__button flex-center"}
+            handleClick={toggleModal}
+            data={"X"}
+          />
         </Modal>
       ) : null}
     </section>
