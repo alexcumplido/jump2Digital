@@ -2,8 +2,8 @@
 @import url("./reset.css");
 @import url("./global.css");
 @import url("./utilities.css");
-@import url("../components/cardSection/cardSection.css");
-@import url("../components/card/card.css");
-@import url("../components/list/list.css");
-@import url("../components/button/button.css");
-@import url("../components/modal/modal.css");
+@import url("../components/cardSection/CardSection.css");
+@import url("../components/card/Card.css");
+@import url("../components/list/List.css");
+@import url("../components/button/Button.css");
+@import url("../components/modal/Modal.css");
