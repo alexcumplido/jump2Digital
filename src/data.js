@@ -4,6 +4,7 @@ export const data = [
     type: "Starter",
     cost: "Free",
     period: "per month",
+    featured: false,
     benefits: [
       { text: "Full courses library", activated: true },
       { text: "A new daily meditation", activated: true },
@@ -20,6 +21,7 @@ export const data = [
     type: "Pro",
     cost: "$49",
     period: "per month",
+    featured: true,
     benefits: [
       { text: "Full courses library", activated: true },
       { text: "A new daily meditation", activated: true },
@@ -33,9 +35,11 @@ export const data = [
   },
   {
     logo: "../images/team.png",
+
     type: "Teams",
     cost: "$99",
     period: "per month",
+    featured: false,
     benefits: [
       { text: "Full courses library", activated: true },
       { text: "A new daily meditation", activated: true },
