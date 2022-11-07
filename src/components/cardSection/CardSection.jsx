@@ -6,7 +6,10 @@ import { Modal } from "../modal/Modal.jsx";
 
 export function CardSection() {
   const [modal, setModal] = useState(false);
+  const [input, setInput] = useState({ value: "" });
+  const handleChange = (event) => setInput({ value: event.target.value });
   const toggleModal = () => setModal(!modal);
+
   return (
     <section className="card__section">
       {data.map(function (element, idx) {
@@ -17,6 +20,19 @@ export function CardSection() {
           <p>
             Thanks for your interest. Enter an email and we will reach you soon.
           </p>
+          <form>
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              onChange={handleChange}
+              value={input.value}
+              required
+            />
+            <input type="submit" value="Send" />
+          </form>
           <Button handleClick={toggleModal} data={"Close"} />
         </Modal>
       ) : null}
