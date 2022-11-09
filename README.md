@@ -1,3 +1,5 @@
+![Prevew](./src/assets/modularPriceCards.PNG)
+
 # Jump2Digital 2022 | Frontend ⚛
 
 This is a response to the [challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to participate in the [Jump2Digital](https://barcelonadigitaltalent.com/jump2digital-hackathon) hackathon 2022 edition. The main objective is to build a modular price-card. The end result can be visualized [here ](https://jump2-digital.vercel.app/).
