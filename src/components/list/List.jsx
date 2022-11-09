@@ -5,7 +5,7 @@ export function List({ data }) {
         return (
           <li
             className={`card__item ${
-              element.activated ? `card__item--featured` : ""
+              element.activated && `card__item--featured`
             }`}
             key={idx}
           >
