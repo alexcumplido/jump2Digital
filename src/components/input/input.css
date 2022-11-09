@@ -1,0 +1,6 @@
+.modal__input {
+  padding: 1rem;
+  width: 100%;
+  flex: 1 1 auto;
+  border-radius: 0.5rem;
+}
