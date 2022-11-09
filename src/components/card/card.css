@@ -28,11 +28,12 @@
   transition: all 0.25s ease-in-out;
 }
 
-.card:hover .card__image,
-.card:focus-within .card__image {
+.card__image:hover,
+.card__image:focus-within {
   transform: scale(1.1);
-  filter: brightness(1.065);
+  filter: brightness(1.075);
 }
+
 .card__intro p:nth-of-type(2) {
   font-size: var(--fs-300);
   font-weight: var(--fw-extra-bold);

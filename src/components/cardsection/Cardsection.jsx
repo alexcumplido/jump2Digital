@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { data } from "../../data.js";
 import { Card } from "../card/Card.jsx";
+import { Input } from "../input/Input.jsx";
 import { Button } from "../button/Button.jsx";
 import { Modal } from "../modal/Modal.jsx";
 
@@ -19,21 +20,15 @@ export function Cardsection() {
         <Modal>
           <form className="modal__form">
             <p>
-              Thanks for your interest! Enter an email and we will reach you.
+              Thanks for your interest! Enter an email and we will reach you
             </p>
-            <label htmlFor="email">
-              Email
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="example@gmail.com"
-                onChange={handleChange}
-                value={input.value}
-                required
-              />
-            </label>
-            <input className="modal__submit" type="submit" value="Send" />
+            <Input
+              inputType={"email"}
+              inputValue={input.value}
+              inputHandle={handleChange}
+              className={"modal__input"}
+            />
+            <input type="submit" value="Send" className="modal__submit" />
           </form>
           <Button
             className={"modal__button flex-center"}
