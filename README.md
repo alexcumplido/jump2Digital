@@ -1,6 +1,6 @@
-# Jump2Digital 2022 | Frontend ⚛
+# Jump2Digital 2022 | Frontend⚛
 
-Project created as a response to the [frontend challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to be considered for the [Jump2Digital](https://barcelonadigitaltalent.com/jump2digital-hackathon) hackathon 2022 edition. The main objective is to build a modular price-card with a frontend stack. You can visualize here the [live ](https://jump2-digital.vercel.app/) project.
+This is a response to the [challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to be considered for the [Jump2Digital](https://barcelonadigitaltalent.com/jump2digital-hackathon) hackathon 2022 edition. The main objective is to build a modular price-card with a frontend stack. You can visualize here the [live ](https://jump2-digital.vercel.app/) project.
 .
 
 **Quality test**
@@ -12,8 +12,8 @@ Project created as a response to the [frontend challenge](https://nuwe.io/dev/ch
 Given the following [Figma design](https://www.figma.com/file/8DTsCBsanZ0OEoLdiY1qzW?node-id=4:194) the goals were:
 
 1. Build a modular-card price
-2. Add a dialog with asking for an email
-3. View optimal layout depending device screen
+2. Add a dialog asking for an email
+3. View optimal layout depending on device
 4. Deploy the project
 
 Extra improvements allowed:
@@ -22,7 +22,7 @@ Extra improvements allowed:
 6. Modify the design system
 7. Use [Codefactor](https://www.codefactor.io/) or [Sonarsource](https://www.sonarsource.com/)
 
-## ⚙️Installation
+## Installation ⚙️
 
 Clone this repository into a newly created directory
 
@@ -41,7 +41,7 @@ Clone this repository into a newly created directory
     npm run dev
 ```
 
-## 🛠 Stack
+## Stack ⚒️
 
 - HTML5
 - CSS3
@@ -49,26 +49,18 @@ Clone this repository into a newly created directory
 - React
 - Vite
 
-## Roadmap and visuals | Not using the common-readme | Not required
+## Visuals
 
-Explicación extra, imágenes, wireframes, mockups, GIFs, etc.
+![Demo view](./src/assets/jump2Digital.gif)
 
-## Contribución y Apoyo | Not using the common-readme | Not required
+## Contact info
 
-Puedes comentar el proceso de que tiene que hacer una persona si quiere colaborar o apoyar el proyecto.
+Alexandre Cumplido Bou
 
-## Contact info | Not using the common-readme | Not required | Recommended
+[Linkedin](https://www.linkedin.com/in/alexandrecb/)
 
-Pon tu información básica de contacto
+[Portfolio](https://alexcumplido.github.io/portfolio/)
 
-[![Website Badge](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://alexcumplido.github.io/portfolio/)
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandrecb/)
+## 📃 License
 
-## Reconocimientos | Not using the common-readme | Not required
-
-Aquí puedes poner información extra sobre las librerias, documentación o proyectos que has utilizado para crear tu proyecto y perason u organizaciones que lo han apoyado
-
-## License
-
-Inlcuir la licéncia y el link a esta
-[MIT](https://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT)
