@@ -15,10 +15,10 @@ export function Card({ data, toggleModal }) {
       </div>
       <List data={benefits} />
       <Button
+        handleClick={toggleModal}
         className={`card__button flex-center
         ${featured && `card__button--featured`}`}
-        handleClick={toggleModal}
-        data={buttonText}
+        textButton={buttonText}
       />
     </article>
   );

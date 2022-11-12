@@ -12,6 +12,11 @@
   background-color: var(--color-primary-100);
 }
 
+.card:hover,
+.card:focus-within {
+  transform: scale(1.01);
+}
+
 .card:nth-of-type(3) {
   padding: 2rem;
 }

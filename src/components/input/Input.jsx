@@ -1,4 +1,10 @@
-export function Input({ inputType, inputValue, inputHandle, className }) {
+export function Input({
+  inputType,
+  inputValue,
+  inputHandle,
+  className,
+  placeholder,
+}) {
   return (
     <label htmlFor={inputType}>
       {inputType}
@@ -9,7 +15,7 @@ export function Input({ inputType, inputValue, inputHandle, className }) {
         name={inputType}
         onChange={inputHandle}
         value={inputValue}
-        placeholder="example@gmail.com"
+        placeholder={placeholder}
         required
       />
     </label>
