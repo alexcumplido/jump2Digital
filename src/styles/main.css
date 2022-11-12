@@ -3,6 +3,7 @@
 @import url("./global.css");
 @import url("./utilities.css");
 @import url("../components/cardsection/cardsection.css");
+@import url("../components/form/form.css");
 @import url("../components/card/card.css");
 @import url("../components/list/list.css");
 @import url("../components/button/button.css");
