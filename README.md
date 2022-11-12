@@ -25,9 +25,11 @@ Extra improvements allowed:
 
 ## Usage 📝
 
-I used [Vite](https://vitejs.dev/) as a build tool and created a functional development environment from the ground up instead of using a tool such as create-react-app because this way I get the change to understand under the hood the process of including any third-party library, even React itself, or dependency and creating the corresponding script.
+I used [Vite](https://vitejs.dev/) as a build tool and created a functional development environment from the ground up instead of using a tool such as create-react-app because this way the process of building the project starts with minimal dependencies installed as well as scripts created.
 
-The folder structure is organized in component folders, one folder for each component including the .jsx and .css files. I created a data.js file that contains all the data required to render so I avoided as much as possible harcoding any of it and instead passing data via props.
+Project structure is organized in component folders, one folder for each component including the .jsx and .css files. The styles folder contains global css like custom variables, a stylesheet reset and utilities.
+
+A data.js file contains all the dara required to be rendered by the components so hardcoding any of it is avoided as much as possible.
 
 ## Installation ⚙️
 
