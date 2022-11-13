@@ -1,5 +1,3 @@
-<!-- ![Prevew](./src/assets/modularPriceCards.PNG) -->
-
 # Jump2Digital 2022 | Frontend ⚛
 
 This is a response to the [Nuwe challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to participate in the Jump2Digital hackathon 2022 edition. The goal is to build a modular price-card component starting from this [Figma](https://www.figma.com/file/8DTsCBsanZ0OEoLdiY1qzW?node-id=4:194) design. Visualize the [deployed project here](https://jump2-digital.vercel.app/).
@@ -23,7 +21,7 @@ Extra improvements allowed:
 
 ## Usage 📝
 
-As a build tool I used [Vite](https://vitejs.dev/) because of its fast configuration and also because creating a development environment from the ground up is a great oportunity to realize what dependencies and scripts the project will require.
+The user can visualize a modular price cards and interact clicking a button that will prompt a modal asking for an email.
 
 Project structure is organized in component folders, each one including .jsx and .css files. The styles folder contains global css like custom variables, a reset stylesheet and utility classes.
 
@@ -72,9 +70,18 @@ Clone this repository into a newly created directory
 - React
 - Vite
 
+As a build tool I used [Vite](https://vitejs.dev/) because of its fast configuration and also because creating a development environment from the ground up is a great oportunity to realize what dependencies and scripts the project will require.
+
+I used React as a JS library because of its composition model and component-level. I think this project is a great opportunity to implement a component driven development approach.
+
 ## Visuals 👀
 
 ![Demo view](./src/assets/jump2Digital.gif)
+
+## Roadmap
+
+- Migration from JavaScript to TypeScript
+- Use Sass for the CSS
 
 ## Contributing 🙌
 
