@@ -72,8 +72,6 @@ Clone this repository into a newly created directory
 
 As a build tool I used [Vite](https://vitejs.dev/) because of its fast configuration and also because creating a development environment from the ground up is a great oportunity to realize what dependencies and scripts the project will require.
 
-I used React as a JS library because of its composition model and component-level. I think this project is a great opportunity to implement a component driven development approach.
-
 ## Visuals 👀
 
 ![Demo view](./src/assets/jump2Digital.gif)
