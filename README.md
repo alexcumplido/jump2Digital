@@ -1,8 +1,8 @@
-![Prevew](./src/assets/modularPriceCards.PNG)
+<!-- ![Prevew](./src/assets/modularPriceCards.PNG) -->
 
 # Jump2Digital 2022 | Frontend ⚛
 
-This is a response to the [challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to participate in the [Jump2Digital](https://barcelonadigitaltalent.com/jump2digital-hackathon) hackathon 2022 edition. The goal is to build a modular price-card component starting from this [Figma](https://www.figma.com/file/8DTsCBsanZ0OEoLdiY1qzW?node-id=4:194) design. The end result can be visualized [here ](https://jump2-digital.vercel.app/).
+This is a response to the [Nuwe challenge](https://nuwe.io/dev/challenges/jump2digital2022-frontend) required to participate in the Jump2Digital hackathon 2022 edition. The goal is to build a modular price-card component starting from this [Figma](https://www.figma.com/file/8DTsCBsanZ0OEoLdiY1qzW?node-id=4:194) design. Visualize the [deployed project here](https://jump2-digital.vercel.app/).
 
 **Quality test**
 
@@ -19,25 +19,29 @@ Extra improvements allowed:
 
 5. Implement animations
 6. Modify the design system
-7. Use [Codefactor](https://www.codefactor.io/) or [Sonarsource](https://www.sonarsource.com/)
+7. Use [Codefactor](https://www.codefactor.io/) or [Sonarsource](https://www.sonarsource.com/) for a quality test
 
 ## Usage 📝
 
-As a build tool I used [Vite](https://vitejs.dev/) because of its fast configuration and also development environment from the ground up is a great oportunity to learn about what dependencies and scripts the project will require.
+As a build tool I used [Vite](https://vitejs.dev/) because of its fast configuration and also because creating a development environment from the ground up is a great oportunity to realize what dependencies and scripts the project will require.
 
-Project structure is organized in component folders, each one includes the .jsx and .css files. The styles folder contains global css like custom variables, a reset stylesheet and utility classes. A data.js file contains all the dara required to be rendered by the components so hardcoding any of it is avoided as much as possible.
+Project structure is organized in component folders, each one including .jsx and .css files. The styles folder contains global css like custom variables, a reset stylesheet and utility classes.
 
-The modal component is implemented using [React portals](https://reactjs.org/docs/portals.html). Portals let you render a children into a DOM node outside of the DOM hierarchy from its parent component.
+Data.js file contains data required to be rendered by the components so hardcoding it is mainly avoided.
 
 ## Components 🧬
+
+The project followed a [Component Driven UI](https://www.componentdriven.org/) development methodology creating components from the bottom up and then combining them into complex ones.
+
+The modal component is implemented using [React portals](https://reactjs.org/docs/portals.html). Portals let you render a children into a DOM node outside of the DOM hierarchy from its parent component.
 
 - Button
 - Input
 - List
 - Form
+- Modal
 - Card
 - Cardsection
-- Modal
 
 ## Installation ⚙️
 
@@ -72,7 +76,7 @@ Clone this repository into a newly created directory
 
 ![Demo view](./src/assets/jump2Digital.gif)
 
-## Contributing 🙌 ⚙️
+## Contributing 🙌
 
 1. Fork the repo
 2. Create a new branch
